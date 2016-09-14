@@ -4,8 +4,9 @@
 // *****************************************************************************
 // Set upp environmental variables correct
 
-require( "dotenv" ).config()
+//require( "dotenv" ).config()
 
+require( "dotenv-safe" ).load()
 
 
 // *****************************************************************************
