@@ -1,0 +1,14 @@
+{
+  "files.exclude": {
+    "First server": false,
+    "node_modules/": false,
+    ".vscode/": false,
+    "typings/": false,
+    ".eslint*": false,
+    ".gitignore": false,
+    ".stylelintrc": false,
+    "jsconfig.json": false,
+    "README.md": false,
+    "time.js": false
+  }
+}
