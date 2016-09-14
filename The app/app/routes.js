@@ -1,17 +1,25 @@
 "use strict"
 
+// *****************************************************************************
+// *****************************************************************************
+// Requires
+
+const core = require( "./controllers/core.js" )
+
+
+// *****************************************************************************
+// *****************************************************************************
+// Actual routing
+
 module.exports = function( app ) {
 
   // ***************************************************************************
   // Regular routes
 
-  app.get( "/", ( req, res ) => {
-    res.send( "This is the home page" )
-  })
+  app.get( "/", core.home )
 
-  app.get( "/top", ( req, res ) => {
-    res.send( "This is the top page" )
-  })
+
+  app.get( "/top", core.top )
 
   app.get( "/results", ( req, res ) => {
     res.send( "This is the results page" )
